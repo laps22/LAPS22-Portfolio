@@ -4,11 +4,14 @@ header {
     text-align:left;
 }
 
-nav {
-    display:inline;
-    text-align: right;
+li {
     list-style: none;
-    padding: 0%;
+}
+
+nav {
+    display:flex;
+    justify-content: right;
+    font-size: 40px;
 }
 
 body {
@@ -17,8 +20,11 @@ body {
 
 }
 
+.container {
+display:block;
+}
+
 section ul {
-    list-style: none;
     border: 10px solid color #83AF93;
 }
 
@@ -37,7 +43,6 @@ footer {
 }
 
 footer ul {
-    list-style: none;
     display: inline;
     text-align: center;
 }

@@ -8,3 +8,6 @@ A portfolio site that includes my name, photo, and links to sections of my work.
 * When clicking on the application image deploys the application site
 * When media queries are added to support various screens and devices to present a responsive layout
 * Repo follows best practices for class/id naming conventions, indentation, and includes comments
+
+
+### Refrences

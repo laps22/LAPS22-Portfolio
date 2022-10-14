@@ -10,7 +10,7 @@ A portfolio site that includes my name, photo, and links to sections of my work.
 * Repo follows best practices for class/id naming conventions, indentation, and includes comments
 
 
-### Refrences
+### References
 * Used pexels.com to pull images
 * Used Adobe for color palette
 <img src="assets/images/AdobeColor-Paleta1.jpg">

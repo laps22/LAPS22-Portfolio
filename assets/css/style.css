@@ -1,4 +1,9 @@
 /* color palette sourced from color.adobe.com*/
+
+body, html {
+    height: 100%;
+}
+
 header {
     background-color: #FCB1A7;
     display: flex;
@@ -8,11 +13,18 @@ header {
 
 }
 
+/*.banner {
+   
+    background-position: center;
+    background-size: cover;
+    
+}*/
+
 header h1 {
     display:contents;
     color:#FFEEE6;
     font-size: 55px;
-    font-weight: 100;
+  
     margin: 0;
 
 }
@@ -28,16 +40,20 @@ nav ul {
     
 }
 
-a {
+header a {
     font-size: 40px;
     color: #FFEEE6;
     text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     color:#FCB1A7;
     background-color: #83AF93;
 
+}
+
+#about-me {
+    padding-top: 10%;
 }
 /* Pointing to the sidebar column About Me, Work, & contact*/
 .menucolumn {
@@ -51,22 +67,30 @@ a:hover {
     
 }
 
+h2 {
+    color:#FCB1A7;
+    font-weight: lighter;
+
+}
+
 .about-content {
     display: flex;
+    width: 680px;
+    height: 500px;
+    padding: 0;
 }
 
 .memoji {
     display: block;
-    width: 180px;
-    padding: 0px;
-    height: 150px; 
+    width: 280px;
+    height: 250px; 
    
 }
 
 p {
-    width: 680px;
-    height: 500px;
-    padding: 5;
+    padding-top: 10%;
+    line-height: 25px;
+
 }
 
 body {
@@ -80,8 +104,7 @@ body {
 
 .leadproject {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    padding: 0%;
 }
 
 article {
@@ -89,40 +112,54 @@ article {
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
+    padding-left: 20%;
 }
 
-section .img{
-    display: block;
-    width: 350px;
-    height: 250px;
-    padding: 20%;
+.lead-img {
+    display: flex;
+    height: 450px;
+    padding: 20px;
+
+}
+
+h3 {
+    text-align: center;
 }
 article .img {
     display: block;
-    width: 250px;
-    padding: 20px;
-    height: 150px;
+    padding: 20%;
+    height: 250px;
    
+}
+
+.info {
+    color: #83AF93;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.info a {
+    text-decoration: underline;
+    color: #83AF93;
 }
 
 footer {
     text-align: center;
-    display: inline-flex;
+    margin: 1.5rem;
+    padding-top: 20%;
 }
 
-footer ul {
-    display: inline;
-    text-align: center;
-    color: #83AF93;
 
 
-}
-
-/* @media screen and (max-width: 768px) {
-main,
-nav,
-}
-main,
-nav,
-{flex-direction:} */
-    
+/* Pulled Media query base from CSS Challenege for reference */
+/*@media screen and (min-width: 768px) {
+    .about-content {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .article .img:last-child {
+      flex-grow: 1;
+    }*/

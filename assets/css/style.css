@@ -102,6 +102,7 @@ body {
 
 }
 
+/* Reference main project displayed/listed on Portfolio*/
 .leadproject {
     display: flex;
     padding: 0%;
@@ -132,6 +133,7 @@ article .img {
    
 }
 
+/*contact information section*/
 .info {
     color: #83AF93;
     display: flex;

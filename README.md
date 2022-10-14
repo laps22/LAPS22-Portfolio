@@ -1,4 +1,7 @@
 # LAPS22-Portfolio
+
+Link for site: https://laps22.github.io/LAPS22-Portfolio/#info
+
 ## Description
 A portfolio site that includes my name, photo, and links to sections of my work. Contact information is also included at the bottom.
 
@@ -14,3 +17,4 @@ A portfolio site that includes my name, photo, and links to sections of my work.
 * Used pexels.com to pull images
 * Used Adobe for color palette
 <img src="assets/images/AdobeColor-Paleta1.jpg">
+

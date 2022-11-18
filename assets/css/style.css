@@ -126,6 +126,13 @@ article {
 h3 {
     text-align: center;
 }
+
+h3 a:hover {
+    color:#FCB1A7;
+    background-color: #83AF93;
+
+}
+
 article .img {
     display: block;
     padding: 20%;
